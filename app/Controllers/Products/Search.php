@@ -17,9 +17,8 @@ class Search extends BaseController
         ];	
 		return view('Common/header', $header_data)
             . view('Products/search_form')
-            . view('Products/search_results')
             . view('Common/footer');
 	}
 
-	
+
 }

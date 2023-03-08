@@ -8,14 +8,14 @@
     </thead>
     <tbody>
         <tr>
-            <td>Dom</td>
-            <td>6000</td>
-            <td>6000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
         </tr>
         <tr class="active-row">
-            <td>Melissa</td>
-            <td>5150</td>
-            <td>6000</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
         </tr>
     </tbody>
 </table>
