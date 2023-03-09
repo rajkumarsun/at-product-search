@@ -1,16 +1,27 @@
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
+html, body {
+  height: 100%;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
 }
+.main-content {
+  min-height: 80% !important;
+}
 h2 {
   font-size: 30px;
   margin: 10px 0px;
   text-align: left;
+  color: #007ABF;
+}
+h2 a {
+  color: #007ABF;
+  text-decoration: none !important;
 }
 .styled-table {
   border-collapse: collapse;
@@ -37,4 +48,22 @@ h2 {
 }
 .styled-table tbody tr:last-of-type {
   border-bottom: 2px solid #007ABF;
+}
+.btn-primary {
+  background-color: #007ABF !important;
+  border-color: #007ABF !important;
+}
+.footer {
+  font-size: 14px;
+  color: #779db2;
+}
+.noresults {
+  font-size: 16px;
+  color: #007ABF;
+  font-weight: bold;
+}
+.error {
+  font-size: 16px;
+  color: #ff0f0f;
+  font-weight: bold;
 }
