@@ -2,7 +2,9 @@
 
 ## Framework used
 
-CodeIgniter version 4.3.2
+CodeIgniter (version 4.3.2)
+
+Please check PHP requirement in https://codeigniter.com/user_guide/intro/requirements.html#php-and-required-extensions
 
 ## Installation
 
