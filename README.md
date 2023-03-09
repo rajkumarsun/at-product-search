@@ -1,5 +1,9 @@
 # AT Product Search
 
+## Framework used
+
+CodeIgniter version 4.3.2
+
 ## Installation
 
 1. Clone project to your local machine.
@@ -31,3 +35,7 @@ Run the below command in CLI in the project root directory,
 ```
 vendor/bin/phpunit --verbose
 ```
+
+## Public URL for testing
+
+https://at-product-search.rajeshs.me/
