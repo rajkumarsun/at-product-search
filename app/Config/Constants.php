@@ -92,3 +92,11 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+/*
+ * Project specific constants
+ */
+defined('PRODUCT_SEARCH_PAGE_TITLE') || define('PRODUCT_SEARCH_PAGE_TITLE', 'Product Search');
+defined('FOOTER_COPYRIGHT') || define('FOOTER_COPYRIGHT', '© 2023 Attraction Tickets');
+defined('API_END_POINT') || define('API_END_POINT', 'https://global.atdtravel.com/api/products?');
+defined('AVAILABLE_CURRENCIES') || define('AVAILABLE_CURRENCIES', ['GBP' => '£', 'EUR' => '€']);
